@@ -11,8 +11,9 @@ Goal: Re-create a game of tennis including:
     - The score of a player in the game increments the following way: 0 - 15 - 30 - 40
     - There is a deuce when both players have a score of 40 in the game (which means there will be an "advantage" point)
     - When a player is at 40, if it wins the exchange it will go down to 0 and win the game.
-
+    - https://scorecounter.com/tennis/
 
 ## Available commands:
-    - yarn start (runs the `game.js` file)
-    - yarn test (runs the `test.js` file with jest)
+    - npm build (builds the `game.ts` file)
+    - npm start
+    - npm test (runs the `test.ts` file with jest)
