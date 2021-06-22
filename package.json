@@ -4,9 +4,7 @@
   "description": "paired programming exercise for dev candidates",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "build": "tsc game.ts",
-    "start": "node game.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
