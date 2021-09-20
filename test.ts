@@ -1,7 +1,7 @@
 import game from './game';
 
 describe('A tennis game', () => {
-  it('should initialise a game of tennis', () => {
+  it('should return initial score', () => {
     expect(game.getScore()).toEqual('0-0');
   });
 });
